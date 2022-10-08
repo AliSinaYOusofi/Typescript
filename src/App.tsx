@@ -18,7 +18,19 @@ export default function App() {
     "Ali",
     444,
   ];
-
+  
+  // now with tuples
+  // 1 fixed number 2 types are predfined
+  
+  let firstTuple: [string, number, boolean] = ["Codesandbox", 3, true];
+  let secondTuple: [string, number, number, object] = ["sandbox", 2, 2, {name: "ali"}]
+  let optionalTuple = [string, number?] = ["one"]; // ok
+  
+  // constants as it is in c++
+  enum Month {
+    One, Two, Three, Four, Five, Six, Seven
+  };
+  
   return (
     <div className="App">
       <h1> {employees.last + employees.name} </h1>
