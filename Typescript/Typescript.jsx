@@ -40,3 +40,13 @@ function makeMeValid(a : number | string, b: number | string, ...opt: number[]) 
 }
 
 function makingValid() : never { throw new Error("Made it Valid")};
+function typeAlias() : void {
+    
+    // type aliases
+    type alphanumeric = string | number | number[];
+    let number : alphanumeric = [12, 34, 23];
+    
+    let fixedAmountOfUsers : [string, string, string, string] = ["one", 'two', 'three', 'four'];
+}
+
+// done types 
