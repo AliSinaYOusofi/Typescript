@@ -11,5 +11,8 @@ function isYoung(age: number = 0, extra: string? = "optional") : boolean {
         extra
     }
     
+    let productLines : any;
+    productLines = { Company: "worley", "current" : "employeed"};
+    
     return age >= Ages.adult && age <= Ages.old;
 }
