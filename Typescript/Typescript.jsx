@@ -19,4 +19,8 @@ function isYoung(age: number = 0, extra: string? = "optional") : boolean {
     return age >= Ages.adult && age <= Ages.old;
 }
 
-function nothing() : void { console.log("nothing functions")}
+function nothing() : void { 
+    let nothing : void = undefined; // only undefined to void type
+    console.log("nothing functions")
+}
+    
