@@ -28,11 +28,11 @@ class subEmployees extends Employee {
   constructor(
     protected employeeName: string,
     protected employeeAge: number,
-    private subEmpAddress: string,
-    private subEmpPhone: number
+    private subEmpAddresss: string,
+    private subEmpPhones: number
   ) {
     super(employeeName, employeeAge);
-    this.subEmpAddress = subEmpAddress;
-    this.subEmpPhone = subEmpPhone;
+    this.subEmpAddress = subEmpAddresss;
+    this.subEmpPhone = subEmpPhones;
   }
 }
