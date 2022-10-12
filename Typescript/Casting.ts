@@ -72,3 +72,5 @@ let Classy = new Class("main Class Name");
 let Hover = new Hovering(true);
 
 console.log((Classy as unknown as Hovering).moreData("data")); // what the fuck
+
+// why is it now working find
