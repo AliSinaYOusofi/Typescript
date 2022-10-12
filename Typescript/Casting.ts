@@ -74,3 +74,5 @@ let Hover = new Hovering(true);
 console.log((Classy as unknown as Hovering).moreData("data")); // what the fuck
 
 // why is it now working find
+let working: string = "one";
+let lengthOf: number = (working as string).length;
