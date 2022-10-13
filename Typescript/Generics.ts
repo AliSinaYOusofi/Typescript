@@ -28,4 +28,10 @@ console.log(getRandElement<object>(objectCollection));
 function returnWhatYouGet<T>(arg: T): T {
   return arg;
 }
-//
+
+// array version of it
+let returnBack = <T>(arg: T) : T => { return arg}
+
+function addToArray<T>(whatToAdd: T[]) : T { 
+    return new Array<T>().concat(whatToAdd)
+}
