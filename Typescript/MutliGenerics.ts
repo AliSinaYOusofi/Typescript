@@ -5,4 +5,8 @@ function resting<T, U>(one: T, two: U): T | U {
   };
 }
 
-console.log(resting({ one: 1 }, { two: 2 }));
+// sorting algo
+
+function sort<T>(collection: T): T {
+  return collection.sort();
+}
