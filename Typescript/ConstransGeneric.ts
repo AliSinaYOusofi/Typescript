@@ -23,3 +23,5 @@ function retrunProperty<K extends keyof V, V>(collection: V, property: K) {
 }
 
 console.log(retrunProperty({ name: "dewana" }, "name"));
+// this will issue an error when a property does not exist on an object
+console.log(retrunProperty({ age: 10 }, "name"));
